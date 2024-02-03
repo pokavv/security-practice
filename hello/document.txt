@@ -1,0 +1,8 @@
+인증 / 인가 기능
+
+1. 모든 Post 접근 막기 (로그인 / 회원가입 제외)
+2. JwtTokenFilter 인증 계층 추가
+3. 모든 요청에 권한 부여
+4. Token이 없으면 권한 부여 X
+5. Token의 유효기간이 지났는지 확인
+6. Token에서 userName 꺼내서 Controller 에서 사용하기
